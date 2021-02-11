@@ -25,6 +25,7 @@ export class TodoList extends React.Component{
         const dLista = lista.map((i) =>
             <Todo text={i.text} priority={i.priority} dueDate={i.dueDate.toString()}/>
             );
+
     return dLista;
     }
     
